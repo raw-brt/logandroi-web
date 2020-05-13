@@ -1,0 +1,118 @@
+h1, h2, h3, h4, h5 {
+	font-family: 'Merriweather';
+}
+
+html body {
+  background-color: #f8f8f9;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login-button {
+	background-color: transparent;
+	border-radius: 50px;
+	border: 2px solid #50E3C2;
+	display: inline-block;
+	cursor: pointer;
+	color: #221E1F;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 0.5rem 2rem;
+	text-decoration: none;
+}
+.login-button:hover {
+	background-color: #50E3C2;
+	color: #fff;
+}
+.login-button:active {
+	position:relative;
+	top:1px;
+}
+
+.signup-button {
+	background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #FF9500;
+	display: inline-block;
+	cursor: pointer;
+	color: #221E1F;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 0.5rem 2rem;
+}
+.signup-button:hover {
+	background-color: #FFA931;
+	color: #fff;
+}
+.signup-button:active {
+	position: relative;
+	top: 1px;
+}
+
+.try-button {
+	width: 100%;
+	background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #FF9500;
+	display: inline-block;
+	cursor: pointer;
+	color: #221E1F;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 0.5rem 2rem;
+}
+.try-button:hover {
+	background-color: #FFA931;
+	color: #fff;
+}
+
+.try-button:active {
+	position: relative;
+	top: 1px;
+}
+
+.hero {
+  background-color: #f8f8f9;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.image {
+  max-width: 90%;
+  height: auto;
+}
+
+.projects-icon, .timer-icon, .money-icon {
+	max-width: 20%;
+	height: auto;
+	margin-bottom: 3rem;
+}
+
+.main-statement {
+	width: 100%;
+}
+
+.support-statement {
+	margin-top: 2rem;
+	width: 100%;
+}
+
+.container-benefits {
+  background-color: #f8f8f9;
+  margin-bottom: 6rem;
+}
+
+.footer {
+  background-color: #f8f8f9;
+}
+
+.footer p {
+  margin-bottom: 0px;
+}
+
+
+@media only screen and (max-width: 600px) {
+	#logo { min-width: 4rem; max-width: 8.5rem; height: auto }
+} 
